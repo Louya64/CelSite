@@ -23,28 +23,62 @@
 			rel="stylesheet"
 		/>
 
-		<title>Céline - Accueil</title>
+		<title>CelSite - Accueil</title>
 	</head>
 	<body>
 		<header>
 			<nav>
-				<ul class="mainNav">
-					<!-- logo? -->
-					<li class="active">
-						<a class="mainNavLink" href="index.html">Accueil</a>
+				<ul class="nav">
+					<li>
+						<a class="navLink active" href="index.html">Accueil</a>
 					</li>
 					<li>
-						<a class="mainNavLink" href="parcours.html">Mon parcours</a>
+						<a class="navLink" href="parcours.html">Mon parcours</a>
+					</li>
+					<li id="dropdownTrigger">
+						<span class="navLink"
+							>Accompagnements
+							<i class="fas fa-chevron-down"></i>
+							<i class="fas fa-chevron-up"></i>
+						</span>
+						<ul id="dropdown">
+							<li>
+								<a class="navLink" href="bilan.html">Bilan de compétences</a>
+							</li>
+							<li>
+								<a class="navLink" href="sens.html"
+									>Sens de la vie, sens du travail</a
+								>
+							</li>
+							<li>
+								<a class="navLink" href="mbct.html"
+									>Thérapie cognitive basée sur la pleine conscience</a
+								>
+							</li>
+							<li>
+								<a class="navLink" href="acceptation.html"
+									>Thérapie d'acceptation et d'engagement</a
+								>
+							</li>
+							<li>
+								<a class="navLink" href="communication.html"
+									>Améliorer sa communication</a
+								>
+							</li>
+							<li>
+								<a class="navLink" href="sophrologie.html"
+									>Découvrir la sophrologie</a
+								>
+							</li>
+							<li>
+								<a class="navLink" href="autresAccomp.html"
+									>Autres Accompagnements</a
+								>
+							</li>
+						</ul>
 					</li>
 					<li>
-						<span class="mainNavLink"
-							>Accompagnements <i class="fas fa-chevron-down"></i
-						></span>
-
-						<!-- <i class="fas fa-chevron-up"></i> -->
-					</li>
-					<li>
-						<a class="mainNavLink" href="contact.html">Contact</a>
+						<a class="navLink" href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</nav>

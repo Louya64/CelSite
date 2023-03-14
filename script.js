@@ -1,8 +1,13 @@
-const navLinks = document.querySelectorAll("header li");
+const navLinks = document.querySelectorAll(".navLink");
 
 navLinks.forEach((navLink) => {
 	navLink.addEventListener("click", () => {
-		document.querySelector("li.active").classList.remove("active");
+		document.querySelector(".navLink.active").classList.remove("active");
 		navLink.classList.add("active");
 	});
+});
+
+const dropdownTrigger = document.getElementById("dropdownTrigger");
+dropdownTrigger.addEventListener("click", () => {
+	dropdownTrigger.classList.toggle("active");
 });
