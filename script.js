@@ -1,13 +1,11 @@
-const navLinks = document.querySelectorAll(".navLink");
-
-navLinks.forEach((navLink) => {
-	navLink.addEventListener("click", () => {
-		document.querySelector(".navLink.active").classList.remove("active");
-		navLink.classList.add("active");
-	});
-});
-
 const dropdownTrigger = document.getElementById("dropdownTrigger");
 dropdownTrigger.addEventListener("click", () => {
 	dropdownTrigger.classList.toggle("active");
+});
+
+const iconBurger = document.getElementById("iconBurger");
+const nav = document.getElementById("nav");
+iconBurger.addEventListener("click", () => {
+	nav.classList.toggle("active");
+	iconBurger.classList.toggle("active");
 });
