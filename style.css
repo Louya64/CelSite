@@ -40,23 +40,23 @@ nav {
 #iconBurger {
 	display: none;
 	position: absolute;
-	top: 15px;
-	right: 15px;
-	padding: 0 10px;
+	top: 12vw;
+	right: 5vw;
+	width: 15vw;
+	height: 15vw;
+	padding: 0 2.5vw;
 	border-radius: 5px;
 	cursor: pointer;
 	background-color: black;
 	z-index: 1;
-	width: 62px;
-	height: 52px;
 }
 
 #iconBurger span {
 	display: block;
-	height: 4px;
-	width: 42px;
+	height: 1.3vw;
+	width: 10vw;
+	margin: 2.7vw 0;
 	background-color: white;
-	margin: 10px 0;
 	border-radius: 10px;
 	transition: 0.7s ease-in-out;
 }
@@ -174,7 +174,7 @@ i.fa-chevron-up {
 }
 
 #containerAccueil .imgAside {
-	padding: 20vh 5vw;
+	padding: 20vh 4vw;
 }
 
 .mobileHeader {
