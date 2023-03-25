@@ -22,8 +22,11 @@ main a:hover {
 li {
 	list-style: none;
 }
+.bold {
+	font-weight: bold;
+}
 
-/* ********   NAV   ********* */
+/* *********************   NAV   ********************* */
 nav {
 	background-color: white;
 	position: fixed;
@@ -48,7 +51,6 @@ nav {
 	border-radius: 5px;
 	cursor: pointer;
 	background-color: black;
-	z-index: 1;
 }
 
 #iconBurger span {
@@ -139,7 +141,7 @@ i.fa-chevron-up {
 #dropdown {
 	display: none;
 	position: absolute;
-	top: 0;
+	top: -1vh;
 	left: -100px;
 	right: -100px;
 	margin-top: 10vh;
@@ -147,14 +149,13 @@ i.fa-chevron-up {
 	background-color: white;
 	font-size: 18px;
 	text-align: center;
-	z-index: 2;
 }
 
 #dropdown > li {
 	width: fit-content;
 }
 
-/* ********   NAV   ********* */
+/* *********************   END   ********************* */
 
 .container {
 	padding-top: 10vh;
@@ -170,10 +171,9 @@ i.fa-chevron-up {
 	position: fixed;
 	top: 10vh;
 	height: 90vh;
-	z-index: 1;
 }
 
-#containerAccueil .imgAside {
+#imgAsideAccueil {
 	padding: 20vh 4vw;
 }
 
@@ -192,13 +192,17 @@ i.fa-chevron-up {
 }
 
 h1 {
-	padding-bottom: 50px;
+	padding-bottom: 10vh;
 	text-align: center;
 	font-size: 35px;
 }
 
 p {
 	font-size: 25px;
+}
+
+#containerAccueil p {
+	margin-top: 2vh;
 }
 
 #containerContact .content > div {

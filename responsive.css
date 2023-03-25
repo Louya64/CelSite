@@ -25,7 +25,7 @@
 		font-size: 12px;
 	}
 
-	#containerAccueil .imgAside {
+	#imgAsideAccueil {
 		padding: 26vh 5vw;
 	}
 
@@ -111,11 +111,16 @@
 
 	.nav {
 		flex-direction: column;
+		justify-content: flex-start;
+		padding-top: 15vh;
 	}
 
 	#dropdown {
 		padding: 0;
 		font-size: 3.5vw;
+	}
+	#dropdown > li {
+		padding: 1vh 0;
 	}
 
 	.container {
@@ -137,6 +142,7 @@
 
 	h1 {
 		font-size: 6vw;
+		padding-bottom: 9vh;
 	}
 
 	p {
@@ -151,5 +157,17 @@
 		margin-top: 10vh;
 		width: 60vw;
 		height: 60vw;
+	}
+}
+
+/* @media (orientation: portrait) and (min-width: 12cm) { */
+@media (orientation: portrait) and (min-width: 5.5in) {
+	/* h1 {
+		font-size: 6vw;
+		padding-bottom: 9vh;
+	} */
+
+	p {
+		font-size: 17px;
 	}
 }
