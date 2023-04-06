@@ -22,8 +22,13 @@ main a:hover {
 li {
 	list-style: none;
 }
+
 .bold {
 	font-weight: bold;
+}
+
+.underline {
+	text-decoration: underline;
 }
 
 /* *********************   NAV   ********************* */
