@@ -163,5 +163,6 @@
 @media (orientation: portrait) and (max-width: 5.5in) {
 	p {
 		font-size: 5vw;
+		text-align: left;
 	}
 }
